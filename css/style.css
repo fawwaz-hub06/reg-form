@@ -13,24 +13,25 @@ body{
     background-color: rgba(0, 0, 0, 0.5);
     border: 2px solid black;
     padding:  10px 10px 10px;
-    width: 63vw; 
-    height:500px;
+    width: 60vw; 
+    height:31vw;
     margin: 50px auto; 
+
 }
 
 .reg h1{
     text-align: center;
-    color: red;
+    color: rgb(0, 47, 255);
 }
 
 .inputs input{
-    width: 30vw;
-    font-size: 1.5em;
+    width: 20vw;
+    font-size: 1.2em;
     border: 1px solid green;
     border-radius: 4px;
-    padding: 5px 10px ;
+    padding: 5px 10px;
     box-sizing: border-box;
-    margin: 5px 0px 3px;
+    margin: 5px 10px 3px;
 }
 
 .buttons{
@@ -59,8 +60,17 @@ h1{
 }
 
 .left-img img{ 
-    width: 588px;
-    height: 539px;
-    padding-right: 30px;
-    padding-top: 23px;
+    width: 465px;
+    height: 443px;
+    padding-right: 40px;
+    padding-top: 5px;
+    margin-right: 2rem;
+   
+}
+
+.inputs{
+    text-align: center;
+}
+.reg{
+    justify-content: center;
 }
