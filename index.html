@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register Form</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div class="asplogo">
+    <img src="/Aspira_logo_.png" alt="Aspira Logo">
+  </div>
+
+  <div class="regform">
+    <div class="left-img">
+      <img src="sysadmin_03.jpg" alt="Sysadmin" class="rph">
+    </div>
+    
+    <form action="afterlogin.html" method="GET" enctype="multipart/form-data" class="reg">
+      <h1>Registration Form</h1>
+      <div class="inputs">
+        
+        <input type="text" id="name" name="name" placeholder="Username" required>
+      </div>
+
+      <br>
+
+      <div class="inputs">
+        <input type="email" id="email" name="email" placeholder="Email Id" required>
+      </div>
+
+      <br>
+
+      <div class="inputs">
+        <input type="password" id="password" name="password" placeholder="Password" required>
+      </div>
+
+      <br>
+
+      <div class="inputs">
+        <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+      </div>
+
+      <br>
+
+      <div class="date">
+        <input type="date" id="date" name="date" required>
+      </div>
+
+      <br>
+
+      <div class="radio">
+        <input type="radio" name="gender" id="male" value="male" required>
+        <label for="male">Male</label>
+
+        <input type="radio" name="gender" id="female" value="female" required>
+        <label for="female">Female</label>
+      </div>
+
+      <br>
+
+      <div class="buttons">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+  </div>
+
+ 
+</body>
+
+</html>
