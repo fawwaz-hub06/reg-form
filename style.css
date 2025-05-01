@@ -1,0 +1,80 @@
+body{
+    background-image: url(/project-1\ bg.avif);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.regform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    padding:  10px 10px 10px;
+    width: 60vw; 
+    height:31vw;
+    margin: 50px auto; 
+
+}
+
+.reg h1{
+    text-align: center;
+    color: rgb(0, 47, 255);
+}
+
+.inputs input{
+    width: 20vw;
+    font-size: 1.2em;
+    border: 1px solid green;
+    border-radius: 4px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    margin: 5px 10px 3px;
+}
+
+.buttons{
+    text-align: center;
+}
+
+button{
+    background-color: black;
+    color: white;
+    font-size: 1.3em;
+    margin: 10px 5px;
+    padding-top: 4px;
+    border-radius: 8px;
+   
+}
+
+h1{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.asplogo img{
+    padding-left: 1100px;
+    padding-top: 0px;
+    width: 200px;
+
+}
+
+.left-img img{ 
+    width: 465px;
+    height: 443px;
+    padding-right: 40px;
+    padding-top: 5px;
+    margin-right: 2rem;
+   
+}
+
+.inputs{
+    text-align: center;
+}
+.reg{
+    justify-content: center;
+}
+
+.regform{
+    display: flex;
+}

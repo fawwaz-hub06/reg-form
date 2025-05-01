@@ -1,0 +1,23 @@
+body{
+    background-image: url(/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    position:sticky;
+    color: gold;
+}
+
+.lorem100{
+    border: 2px solid black; 
+    margin: 2px;
+}
+
+.lorem1000{
+    border: 4px solid gold;
+    margin: 2px;
+
+}
+
